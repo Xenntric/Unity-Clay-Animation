@@ -20,6 +20,14 @@
                     "expectedControlType": "Vector2",
                     "processors": "NormalizeVector3",
                     "interactions": "Press"
+                },
+                {
+                    "name": "MouseHold",
+                    "type": "Button",
+                    "id": "f07ca382-2f1a-4b7e-9159-e246c983a22b",
+                    "expectedControlType": "Button",
+                    "processors": "NormalizeVector3",
+                    "interactions": "Press"
                 }
             ],
             "bindings": [
@@ -42,6 +50,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "53c2a8d9-074c-46e0-b361-aa94c76a13c8",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseHold",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
