@@ -750,6 +750,7 @@ MonoBehaviour:
   grabbedObj: {fileID: 0}
   grabbedObjDist: 0
   isGrabbing: 0
+  _showGUI: 0
 --- !u!135 &878726489
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -896,7 +897,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 0.99
   m_Depth: -1
   m_CullingMask:
@@ -4249,6 +4250,7 @@ GameObject:
   - component: {fileID: 7869994170798410997}
   - component: {fileID: 7384784828214138452}
   - component: {fileID: 7384784828214138449}
+  - component: {fileID: 7384784828214138448}
   - component: {fileID: 7384784828214138451}
   - component: {fileID: 7384784828214138450}
   m_Layer: 0
@@ -4258,6 +4260,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7384784828214138448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7384784828214138447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65c4d5d58ba1fe34294bd16d7465f62d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootBone: {fileID: 0}
+  smr: {fileID: 0}
+  bones: []
+  bonePos: {fileID: 0}
+  _boneStartingDistances: []
 --- !u!114 &7384784828214138449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4282,6 +4301,7 @@ MonoBehaviour:
   grabbedObj: {fileID: 0}
   grabbedObjDist: 0
   isGrabbing: 0
+  _showGUI: 0
 --- !u!114 &7384784828214138450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4369,7 +4389,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7384784828214138447}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3c46802ad2aae844b642531fafec138, type: 3}
   m_Name: 
@@ -4558,7 +4578,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7384784828214138447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.771, y: 0.608, z: -0.063}
+  m_LocalPosition: {x: 1.51, y: 0.81, z: -3.85}
   m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
   m_Children:
   - {fileID: 4254163877585157018}

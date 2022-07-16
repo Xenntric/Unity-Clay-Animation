@@ -47,6 +47,7 @@ public class BonesView : MonoBehaviour
 
         foreach (var B in bones)
         {
+            
             var p1 = B.position;
             B.AddComponent<SphereCollider>().enabled = false;
             B.GetComponent<SphereCollider>().isTrigger = true;
